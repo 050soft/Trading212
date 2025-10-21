@@ -1,0 +1,24 @@
+{
+  "name": "trading212",
+  "version": "0.0.0",
+  "description": "050soft's Trading212 API Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --diagnostics "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/050soft/Trading212.git"
+  },
+  "keywords": [
+    "Trading212",
+    "API",
+    "Wrapper"
+  ],
+  "author": "050soft",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/050soft/Trading212/issues"
+  },
+  "homepage": "https://github.com/050soft/Trading212#readme"
+}
