@@ -1,10 +1,13 @@
 {
-  "name": "trading212",
+  "name": "@050soft/trading212",
   "version": "0.0.0",
   "description": "050soft's Trading212 API Wrapper",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --diagnostics "
+    "build": "tsc --diagnostics",
+    "prepublishOnly": "npm run build",
+    "release": "npm publish --access public"
   },
   "repository": {
     "type": "git",
