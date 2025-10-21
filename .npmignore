@@ -1,6 +1,5 @@
 src/
 node_modules/
 .vscode/
-*.ts
 tests/
 *.log
